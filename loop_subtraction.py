@@ -11,10 +11,10 @@ answer = num1 - num2
 your_answer = eval(input("What is" + " "+ str(num1) + " -" + " " + str(num2) + ": "))
 
 while your_answer != (num1 - num2):
-    print("No,You are wrong\nGive the correct answer\n")
-    your_answer = eval(input("What is" + " " + str(num1) + " -" + " " + str(num2) + ": "))
+    your_answer = eval(input("No,You are wrong Give the correct answer. "
+                             "What is" + " " + str(num1) + " -" + " " + str(num2) + ": "))
 
-print("Yes!! you are right")
-print(num1,"-", num2, "is",your_answer)
+print("\nYes!! you are right", num1,"-", num2, "is",your_answer)
+
 
 
