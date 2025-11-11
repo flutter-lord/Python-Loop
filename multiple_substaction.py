@@ -34,7 +34,6 @@ test_time  = int(end_time - start_time)
 print(correct_count,"answers in",NUMBER_OF_QUESTIONS,"questions is correct")
 print(incorrect_count,"answers in",NUMBER_OF_QUESTIONS,"questions is incorrect ")
 print("\nYou spent", test_time, "secs for the test")
-print(count)
 
 
 
