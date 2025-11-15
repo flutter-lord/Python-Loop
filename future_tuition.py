@@ -1,9 +1,9 @@
-'''tuition = 10000
-year = 0
+balance = 1000
+while True:
+    if balance == 9 :
+        break
+    balance -= 9
 
-while tuition < 20000:
-    year += 1
-    tuition *= (1 + (7 / 100))
+print("Balance: = ", balance)
 
-print("Your $10000 tuition will be doubled in",year,"years")'''
 
