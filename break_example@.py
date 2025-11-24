@@ -1,7 +1,7 @@
-balance = 1000
-while True:
-    if balance < 9:
+summa = 0
+for i in range(4):
+    if i % 3 == 0:
         continue
-    balance =- 9
+    summa += i
 
-print(balance)
+print(summa)
