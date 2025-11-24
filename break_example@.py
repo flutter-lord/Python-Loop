@@ -1,7 +1,7 @@
-summa = 0
-for i in range(4):
-    if i % 3 == 0:
-        continue
-    summa += i
+for i in range(1, 4):
+    for j in range(1, 4):
+        if i * j > 2:
+            continue
+        print(i * j)
 
-print(summa)
+    print(i)
